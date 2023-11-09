@@ -7,7 +7,7 @@ foreach ($string in $External_Variables)
 	Write-Host $string	
 }
 
-$file = get-content variables.txt
+$file = get-content $ScriptDir
 $file | foreach {
   $items = $_.split("=")
   if ($items[0] -eq "$steamLoc"){$steam = $items[1]}
