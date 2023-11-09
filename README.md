@@ -4,7 +4,8 @@ The Windows Scripts I personally made that I felt like sharing here, some of the
 ## Bind Steam as Drive.ps1  
 Uses the subst command to be able to access your steam path as a "drive".  
 If you steam is not on the default install path, modify the variable $steamLoc inside of variables.txt
-
+*To undo the drive, type this command in powershell:* **subst :S /D**
+  
 ## Delete Temp Files.ps1  
 As the name suggests, deletes the Windows temp files on run.  
   
